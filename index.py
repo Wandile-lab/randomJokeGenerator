@@ -12,7 +12,7 @@ jokes2 = ["Ok, you must be the joke then",
           "No joke? Okay, you must be the life of the party... or not.",
           "No joke? What are you, too cool to crack a smile? Get over yourself.",
           "Alright, no joke. I'm not sure why I expected you to have a sense of humor anyway.",
-          "No joke? You've got a lot of nerve rejecting comedy when it's clearly your only chance to seem interesting.",
+          "No joke? You've got a lot of nerve rejecting comedy",
 ]
 
 def request():
@@ -21,7 +21,7 @@ def request():
         if userInput == "yes":
             print(random.choice(jokes))
         elif userInput == "no":
-            print('Ok, you must be the joke then')
+            print(random.choice(jokes2))
             break
         else:
             print("I don't even know what you’re saying right now.")
